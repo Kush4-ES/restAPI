@@ -1,0 +1,27 @@
+GET http://localhost:3000/notificacion
+
+###
+
+GET http://localhost:3000/notificacion/2
+
+###
+
+POST http://localhost:3000/notificacion HTTP/1.1
+Content-Type: application/json
+
+{
+        "id_not": "1",
+        "mensaje" : "notificacion 1"
+}
+
+###
+PUT http://localhost:3000/notificacion/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "mensaje": "notificacion 2"
+}
+###
+DELETE http://localhost:3000/notificacion/4 HTTP/1.1
+
+

@@ -1,0 +1,31 @@
+{
+    "notificacion": [
+        {
+            "id_not": 1,
+            "mensaje": "notificacion 1"
+        },
+        {
+            "id_not": 2,
+            "mensaje": "notificacion 2"
+        },
+        {
+            "id_not": 3,
+            "mensaje": "notificacion 3"
+        },
+        {
+            "id": 4,
+            "id_not": "1",
+            "mensaje": "notificacion 1"
+        },
+        {
+            "id": 5,
+            "id_not": "1",
+            "mensaje": "notificacion 1"
+        },
+        {
+            "id": 6,
+            "id_not": "1",
+            "mensaje": "notificacion 1"
+        }
+    ]
+}

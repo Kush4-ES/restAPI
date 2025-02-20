@@ -1,0 +1,25 @@
+{
+    "reservas": [
+        {
+            "Id_reserva": 1,
+            "data": "10/64/89",
+            "hora_inici": "9:40",
+            "hora_final": "9:50",
+            "estado": "activa"
+        },
+        {
+            "Id_reserva": 2,
+            "data": "14/65/83",
+            "hora_inici": "9:50",
+            "hora_final": "9:55",
+            "estado": "activa"
+        },
+        {
+            "Id_reserva": 3,
+            "data": "21/21/93",
+            "hora_inici": "10:40",
+            "hora_final": "10:50",
+            "estado": "activa"
+        }
+    ]
+}

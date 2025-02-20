@@ -1,0 +1,19 @@
+{
+    "RECURS": {
+        "atributos": {
+            "Recursos_id": "string"
+        },
+        "relaciones": {
+            "T,P": [
+                "Equipament",
+                "Sales",
+                "Vehicles"
+            ]
+        },
+        "estado": [
+            "Disponible",
+            "Reservat",
+            "Fora de servei"
+        ]
+    }
+}
