@@ -10,8 +10,8 @@ POST http://localhost:3000/reservas HTTP/1.1
 Content-Type: application/json
 
 {
-        "id_not": "1",
-        "mensaje" : "notificacion 1"
+        "Id_reserva": "1 ",
+        "estado" : "activa"
 }
 
 ###
@@ -19,7 +19,7 @@ PUT http://localhost:3000/reservas/2 HTTP/1.1
 Content-Type: application/json
 
 {
-    "mensaje": "notificacion 2"
+    "estado": "inactiva"
 }
 ###
 DELETE http://localhost:3000/reservas/4 HTTP/1.1
